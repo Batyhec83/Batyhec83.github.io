@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--metadatos-->
+    <meta charset="UTF-8">
+    <meta name="autor" content="Hector Roberto Batistella">
+    <meta name="description" content ="Portafolio de desarrollo web de Hector Roberto Batistella">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>Hector Roberto Batistella |Desarrollo Web Front-End</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.ico">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--css-->
+    <link href="style.css" rel="stylesheet">
+    <!-- fuente de google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=IBM+Plex+Serif:wght@500&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    <!--iconos bootstrap-->
+</head>
+<body>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-md  fixed-top navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img  class="logo" src="imagenes/icono.png" whidth="50" alt="Logo de la pagina web"> 
+            </a>
+            <ul id="navbar-nav" class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiencias">Experiencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#articulos">Articulos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+    <!-- seccion Hero -->
+    <section class="hero align-items-stretch seccion-oscura ">
+      <div class="hero-principal dflex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-perfil img-fluid" src="imagenes/hector.png" alt="Foto de Hector Batistella">
+        <h1>Hola, soy Héctor Batistella!!!</h1>
+        <h2>Este es mi Portafolio, bienvenido!!</h2>
+      </div>
+      <div class="hero-inferior">
+        <img  class="hero-inferior-imagen img-fluid" src="imagenes/hero2.png" alt="imagen codigo con logos html, css, javascript y ruby"
+      </div>
+    </section>
+    <!-- Sobre Mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-clara">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Héctor Batistella</h2>
+      <p class="seccion-texto">
+         Hola, soy Hector!!!!
+         Desde joven me apasionó la tecnología, las computadoras y la programación. En ese entonces no era facil
+         conseguir información al respecto, y mucho menos cursos sobre programación. Gracias al avance tecnológico de esta éra, 
+         pude aprender y practicar, de manera autodidacta. Aunque muchos piensen que no es la edad propicia para empezar una nueva 
+         carrera, me esfuerzo cada dia en aprender algo mas de este maravilloso mundo, con la esperanza de ayudar a todo
+         el mundo a solucionar sus problemas!!!
+      </p>
+      </div>
+      
+    </section>
+    <!-- Experiencias -->
+    <section id="experiencias"class="experiencia seccion-oscura">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pc-display-horizontal"></i>
+            <p class="desarrollo-titulo">Desarrollo Web</p>
+            <p>Noticias, novedades, Metodologia BEM y mucho mas!!!</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-dark">HTML</span>
+              <span class="badge text-bg-dark">CSS</span>
+              <span class="badge text-bg-dark">JavaScript</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pc-display-horizontal"></i>
+            <p class="articulos-titulo">Articulos</p>
+            <p>Futuros articulos que publicare con informacion sobre programacion, IA, desarrollo web, etc .</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-dark">Escribir</span>
+              <span class="badge text-bg-dark">Editar</span>
+              <span class="badge text-bg-dark">Recursos</span>
+            </div>
+          </div>
+          <!-- Cursos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pc-display-horizontal"></i>
+            <p class="cursos-titulo">Cursos</p>
+            <p>Cursos que me interesan realizar en un futuro cercano, enfocado sobre todo a Inteligencia Artificial (IA).</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-dark">SQL</span>
+              <span class="badge text-bg-dark">Ruby</span>
+              <span class="badge text-bg-dark">Phyton</span>
+              <span class="badge text-bg-dark">Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos de mis proyectos</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.jpg" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.jpg" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto4.jpg" alt="Proyecto 4">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto5-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.jpg" alt="Proyecto 5">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.jpg" alt="Proyecto 6">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-code"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+      <button type="button" class="btn btn-info">Ver más proyectos
+        <i class="bi bi-arrow-right-circle"></i>
+      </button>
+      </a>
+    </section>
+    <!-- Seccion Articulos -->
+    <section id="articulos"articulos justify-content-start class="seccion-oscura">
+      <h2 class="seccion-titulo texto-blanco">Articulos</h2>
+      <div class="card">
+        <div class="card-header">
+          Mas recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          
+          <!-- articulo 1 -->
+            <a href="https://www.xataka.com/basics/que-copilot-github-como-funciona-esta-inteligencia-artificial-que-te-ayuda-a-programar" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Qué es Copilot de GitHub y cómo funciona esta inteligencia artificial que te ayuda a programar</li>
+          </a>
+          <!-- Articulo 2 -->
+          <a href="https://www.xataka.com/videojuegos/crear-videojuegos-2d-sera-cuestion-unas-pocas-horas-chatgpt-conocimientos-tecnicos" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">Crear videojuegos 2D es cuestión de unas pocas horas con ChatGPT. Y sin conocimientos técnicos</li>
+          </a>
+          <!-- Articulo 3 -->
+          <a href="https://computerhoy.com/internet/tim-berners-lee-creador-paginas-web-solid-blockchain-inteligencia-artificial-1202878" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">El creador de las páginas web quiere que todos tengamos una IA personal que custodiará nuestros datos</li>
+          </a>
+        </ul>
+      </div class= "articulos-boton">
+      <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer"
+      <button type="button" class="btn btn-info">Mas articulos
+        <i class="bi bi-arrow-right-circle"></i>
+      </button>
+      </a>
+    </section>
+    <!-- Seccion Contacto -->
+    <section id="contacto"class="contacto seccion-clara">
+      <div class="container">
+        <div class="container tex-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contactame para iniciar tu proyecto de desarrollo web y haré que tu visíon se vuelva realidad!!!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:batistellahectorroberto@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-paper"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="imagenes/icono.png" alt="logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/HectorRobertoB2" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/hectorroberto.batistella.5/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://github.com/Batyhec83" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.instagram.com/hectorrobertobatistella/?hl=es-la" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/hector-roberto-batistella-680811255/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:batistellahectorroberto@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope-plus"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Hector Roberto Batistella (2023) &#169;</div>
+    </footer>
+
+    <!--bootstrap javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<
+    <script src="main.js">
+/body>
+</html>
